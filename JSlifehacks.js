@@ -1,5 +1,7 @@
-function sleep() {
-   setTimeout((timeout) => {
+function sleep(timeout) {
+   setTimeout(() => {
                 
    }, timeout);
 }
+
+sleep(150)
